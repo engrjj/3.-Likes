@@ -1,0 +1,97 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+.main-container {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: black;
+    padding: 20px;
+}
+h1 {
+    color: white;
+}
+
+h1.title {
+    text-align: center;
+    margin: 20px;
+    color:black;
+}
+
+/* body-container */
+
+.body-container {
+    display: flex;
+}
+
+/* Users */
+.feed {
+    flex: 3;
+}
+.box {
+    padding: 20px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.filler {
+    margin-top: 20px;
+}
+.user {
+    display: flex;
+    align-items: center;
+}
+
+h2.name {
+    flex: 2;
+}
+
+.likes {
+    flex: 1;
+    text-align: right;
+}
+.likes2 {
+    flex: 1;
+    text-align: right;
+}
+.likes3 {
+    flex: 1;
+    text-align: right;
+}
+
+.btn {
+    margin-left: 20px;
+    background-color: goldenrod;
+    width: 50px;
+    box-shadow: 3px 3px 3px black;
+    cursor: pointer;
+}
+
+/* PROFILE*/
+
+.profile {
+    border: 2px solid black;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px;
+    margin-right: 20px;
+    height: 300px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.profile a {
+    margin: 20px;
+}
